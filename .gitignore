@@ -31,6 +31,7 @@ bld/
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
+
 # NUNIT
 *.VisualState.xml
 TestResult.xml
@@ -137,7 +138,7 @@ DocProject/Help/html
 
 # Click-Once directory
 publish/
-
+! Aui2019/
 # Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml
