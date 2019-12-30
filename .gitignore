@@ -265,13 +265,3 @@ __pycache__/
 
 Aui2019/bin/*
 Aui2019/obj/*
-
-# you can skip this first one if it is not already excluded by prior patterns
-!application/
-!application/Function1.cs
-
-application/*
-!application/language/
-
-application/language/*
-!application/language/gr/
