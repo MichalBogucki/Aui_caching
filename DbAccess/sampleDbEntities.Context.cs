@@ -15,20 +15,15 @@ namespace DbAccess
 
     public partial class sampleDbEntities : DbContext
     {
-        private volatile Type _dependency;
         public sampleDbEntities()
             : base("sampleDbEntities")
         {
-            this.Configuration.LazyLoadingEnabled = false;
-            //_dependency = typeof(System.Data.Entity.SqlServer.SqlProviderServices);
-        
+            this.Configuration.LazyLoadingEnabled = false;        
         }
 
         public sampleDbEntities(string nameOrConnectionString) : base(nameOrConnectionString)
         {
             this.Configuration.LazyLoadingEnabled = false;
-            //_dependency = typeof(System.Data.Entity.SqlServer.SqlProviderServices);
-
         }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
