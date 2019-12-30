@@ -24,6 +24,7 @@ namespace DbAccess
         {
             _isEu = true;
             _conn = GetConn(_isEu);
+
         }
         public Class1(bool isEu)
         {
