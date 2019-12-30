@@ -138,7 +138,7 @@ DocProject/Help/html
 
 # Click-Once directory
 publish/
-!Aui2019/*
+
 # Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml
@@ -260,3 +260,7 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+
+!Aui2019/*
+Aui2019/bin/*
+Aui2019/obj/*
