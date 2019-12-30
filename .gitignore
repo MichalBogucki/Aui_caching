@@ -261,7 +261,16 @@ paket-files/
 __pycache__/
 *.pyc
 
-!*/Aui2019/*
-!/Aui2019/*
-/Aui2019/bin/*
-/Aui2019/obj/*
+!Aui2019/
+
+Aui2019/bin/*
+Aui2019/obj/*
+
+# you can skip this first one if it is not already excluded by prior patterns
+!application/
+
+application/*
+!application/language/
+
+application/language/*
+!application/language/gr/
