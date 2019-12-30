@@ -261,6 +261,13 @@ paket-files/
 __pycache__/
 *.pyc
 
+Aui2019/*
 !Aui2019/*
 Aui2019/bin/*
 Aui2019/obj/*
+
+application/*
+!application/**/
+application/language/*
+!application/language/**/
+!application/language/gr/**
