@@ -20,6 +20,7 @@ namespace UnitTests
             sw.Start();
             var a = dbAccess.GetAllCustomers();
             var b = dbAccess.GetCustomerById(10);
+            var c = dbAccess.GetJoinedTablesByCustomers(1);
             var z = "";
             sw.Stop();
             Console.WriteLine($"Elapsed={sw.Elapsed}, isEu={isEu}");

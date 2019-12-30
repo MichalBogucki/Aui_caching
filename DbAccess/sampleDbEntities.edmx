@@ -15,6 +15,26 @@
           <Property Name="City" Type="nvarchar" MaxLength="40" />
           <Property Name="Country" Type="nvarchar" MaxLength="40" />
           <Property Name="Phone" Type="nvarchar" MaxLength="20" />
+          <Property Name="moreColumn1" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn2" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn3" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn4" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn5" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn6" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn7" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn8" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn9" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn10" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn11" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn12" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn13" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn14" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn15" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn16" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn17" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn18" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn19" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn20" Type="varchar" MaxLength="50" />
         </EntityType>
         <EntityType Name="Order">
           <Key>
@@ -25,6 +45,26 @@
           <Property Name="OrderNumber" Type="nvarchar" MaxLength="10" />
           <Property Name="CustomerId" Type="int" Nullable="false" />
           <Property Name="TotalAmount" Type="decimal" Precision="12" Scale="2" />
+          <Property Name="moreColumn1" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn2" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn3" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn4" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn5" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn6" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn7" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn8" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn9" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn10" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn11" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn12" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn13" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn14" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn15" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn16" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn17" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn18" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn19" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn20" Type="varchar" MaxLength="50" />
         </EntityType>
         <EntityType Name="OrderItem">
           <Key>
@@ -35,6 +75,26 @@
           <Property Name="ProductId" Type="int" Nullable="false" />
           <Property Name="UnitPrice" Type="decimal" Precision="12" Scale="2" Nullable="false" />
           <Property Name="Quantity" Type="int" Nullable="false" />
+          <Property Name="moreColumn1" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn2" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn3" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn4" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn5" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn6" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn7" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn8" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn9" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn10" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn11" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn12" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn13" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn14" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn15" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn16" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn17" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn18" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn19" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn20" Type="varchar" MaxLength="50" />
         </EntityType>
         <EntityType Name="Product">
           <Key>
@@ -46,6 +106,26 @@
           <Property Name="UnitPrice" Type="decimal" Precision="12" Scale="2" />
           <Property Name="Package" Type="nvarchar" MaxLength="30" />
           <Property Name="IsDiscontinued" Type="bit" Nullable="false" />
+          <Property Name="moreColumn1" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn2" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn3" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn4" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn5" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn6" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn7" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn8" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn9" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn10" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn11" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn12" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn13" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn14" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn15" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn16" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn17" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn18" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn19" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn20" Type="varchar" MaxLength="50" />
         </EntityType>
         <EntityType Name="Supplier">
           <Key>
@@ -59,6 +139,26 @@
           <Property Name="Country" Type="nvarchar" MaxLength="40" />
           <Property Name="Phone" Type="nvarchar" MaxLength="30" />
           <Property Name="Fax" Type="nvarchar" MaxLength="30" />
+          <Property Name="moreColumn1" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn2" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn3" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn4" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn5" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn6" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn7" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn8" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn9" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn10" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn11" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn12" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn13" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn14" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn15" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn16" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn17" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn18" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn19" Type="varchar" MaxLength="50" />
+          <Property Name="moreColumn20" Type="varchar" MaxLength="50" />
         </EntityType>
         <Association Name="FK_ORDER_REFERENCE_CUSTOMER">
           <End Role="Customer" Type="Self.Customer" Multiplicity="1" />
@@ -146,6 +246,26 @@
           <Property Name="Country" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
           <Property Name="Phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
           <NavigationProperty Name="Orders" Relationship="Self.FK_ORDER_REFERENCE_CUSTOMER" FromRole="Customer" ToRole="Order" />
+          <Property Name="moreColumn1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn5" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn6" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn7" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn8" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn9" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn10" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn11" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn12" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn13" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn14" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn15" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn16" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn17" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn18" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn19" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn20" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityType Name="Order">
           <Key>
@@ -158,6 +278,26 @@
           <Property Name="TotalAmount" Type="Decimal" Precision="12" Scale="2" />
           <NavigationProperty Name="Customer" Relationship="Self.FK_ORDER_REFERENCE_CUSTOMER" FromRole="Order" ToRole="Customer" />
           <NavigationProperty Name="OrderItems" Relationship="Self.FK_ORDERITE_REFERENCE_ORDER" FromRole="Order" ToRole="OrderItem" />
+          <Property Name="moreColumn1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn5" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn6" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn7" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn8" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn9" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn10" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn11" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn12" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn13" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn14" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn15" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn16" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn17" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn18" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn19" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn20" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityType Name="OrderItem">
           <Key>
@@ -170,6 +310,26 @@
           <Property Name="Quantity" Type="Int32" Nullable="false" />
           <NavigationProperty Name="Order" Relationship="Self.FK_ORDERITE_REFERENCE_ORDER" FromRole="OrderItem" ToRole="Order" />
           <NavigationProperty Name="Product" Relationship="Self.FK_ORDERITE_REFERENCE_PRODUCT" FromRole="OrderItem" ToRole="Product" />
+          <Property Name="moreColumn1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn5" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn6" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn7" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn8" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn9" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn10" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn11" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn12" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn13" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn14" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn15" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn16" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn17" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn18" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn19" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn20" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityType Name="Product">
           <Key>
@@ -183,6 +343,26 @@
           <Property Name="IsDiscontinued" Type="Boolean" Nullable="false" />
           <NavigationProperty Name="OrderItems" Relationship="Self.FK_ORDERITE_REFERENCE_PRODUCT" FromRole="Product" ToRole="OrderItem" />
           <NavigationProperty Name="Supplier" Relationship="Self.FK_PRODUCT_REFERENCE_SUPPLIER" FromRole="Product" ToRole="Supplier" />
+          <Property Name="moreColumn1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn5" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn6" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn7" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn8" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn9" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn10" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn11" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn12" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn13" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn14" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn15" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn16" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn17" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn18" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn19" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn20" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityType Name="Supplier">
           <Key>
@@ -197,6 +377,26 @@
           <Property Name="Phone" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
           <Property Name="Fax" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
           <NavigationProperty Name="Products" Relationship="Self.FK_PRODUCT_REFERENCE_SUPPLIER" FromRole="Supplier" ToRole="Product" />
+          <Property Name="moreColumn1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn5" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn6" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn7" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn8" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn9" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn10" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn11" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn12" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn13" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn14" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn15" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn16" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn17" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn18" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn19" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="moreColumn20" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
         </EntityType>
         <Association Name="FK_ORDER_REFERENCE_CUSTOMER">
           <End Role="Customer" Type="Self.Customer" Multiplicity="1" />
@@ -278,6 +478,26 @@
           <EntitySetMapping Name="Customers">
             <EntityTypeMapping TypeName="sampleDbModel.Customer">
               <MappingFragment StoreEntitySet="Customer">
+                <ScalarProperty Name="moreColumn20" ColumnName="moreColumn20" />
+                <ScalarProperty Name="moreColumn19" ColumnName="moreColumn19" />
+                <ScalarProperty Name="moreColumn18" ColumnName="moreColumn18" />
+                <ScalarProperty Name="moreColumn17" ColumnName="moreColumn17" />
+                <ScalarProperty Name="moreColumn16" ColumnName="moreColumn16" />
+                <ScalarProperty Name="moreColumn15" ColumnName="moreColumn15" />
+                <ScalarProperty Name="moreColumn14" ColumnName="moreColumn14" />
+                <ScalarProperty Name="moreColumn13" ColumnName="moreColumn13" />
+                <ScalarProperty Name="moreColumn12" ColumnName="moreColumn12" />
+                <ScalarProperty Name="moreColumn11" ColumnName="moreColumn11" />
+                <ScalarProperty Name="moreColumn10" ColumnName="moreColumn10" />
+                <ScalarProperty Name="moreColumn9" ColumnName="moreColumn9" />
+                <ScalarProperty Name="moreColumn8" ColumnName="moreColumn8" />
+                <ScalarProperty Name="moreColumn7" ColumnName="moreColumn7" />
+                <ScalarProperty Name="moreColumn6" ColumnName="moreColumn6" />
+                <ScalarProperty Name="moreColumn5" ColumnName="moreColumn5" />
+                <ScalarProperty Name="moreColumn4" ColumnName="moreColumn4" />
+                <ScalarProperty Name="moreColumn3" ColumnName="moreColumn3" />
+                <ScalarProperty Name="moreColumn2" ColumnName="moreColumn2" />
+                <ScalarProperty Name="moreColumn1" ColumnName="moreColumn1" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="FirstName" ColumnName="FirstName" />
                 <ScalarProperty Name="LastName" ColumnName="LastName" />
@@ -290,6 +510,26 @@
           <EntitySetMapping Name="Orders">
             <EntityTypeMapping TypeName="sampleDbModel.Order">
               <MappingFragment StoreEntitySet="Order">
+                <ScalarProperty Name="moreColumn20" ColumnName="moreColumn20" />
+                <ScalarProperty Name="moreColumn19" ColumnName="moreColumn19" />
+                <ScalarProperty Name="moreColumn18" ColumnName="moreColumn18" />
+                <ScalarProperty Name="moreColumn17" ColumnName="moreColumn17" />
+                <ScalarProperty Name="moreColumn16" ColumnName="moreColumn16" />
+                <ScalarProperty Name="moreColumn15" ColumnName="moreColumn15" />
+                <ScalarProperty Name="moreColumn14" ColumnName="moreColumn14" />
+                <ScalarProperty Name="moreColumn13" ColumnName="moreColumn13" />
+                <ScalarProperty Name="moreColumn12" ColumnName="moreColumn12" />
+                <ScalarProperty Name="moreColumn11" ColumnName="moreColumn11" />
+                <ScalarProperty Name="moreColumn10" ColumnName="moreColumn10" />
+                <ScalarProperty Name="moreColumn9" ColumnName="moreColumn9" />
+                <ScalarProperty Name="moreColumn8" ColumnName="moreColumn8" />
+                <ScalarProperty Name="moreColumn7" ColumnName="moreColumn7" />
+                <ScalarProperty Name="moreColumn6" ColumnName="moreColumn6" />
+                <ScalarProperty Name="moreColumn5" ColumnName="moreColumn5" />
+                <ScalarProperty Name="moreColumn4" ColumnName="moreColumn4" />
+                <ScalarProperty Name="moreColumn3" ColumnName="moreColumn3" />
+                <ScalarProperty Name="moreColumn2" ColumnName="moreColumn2" />
+                <ScalarProperty Name="moreColumn1" ColumnName="moreColumn1" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="OrderDate" ColumnName="OrderDate" />
                 <ScalarProperty Name="OrderNumber" ColumnName="OrderNumber" />
@@ -301,6 +541,26 @@
           <EntitySetMapping Name="OrderItems">
             <EntityTypeMapping TypeName="sampleDbModel.OrderItem">
               <MappingFragment StoreEntitySet="OrderItem">
+                <ScalarProperty Name="moreColumn20" ColumnName="moreColumn20" />
+                <ScalarProperty Name="moreColumn19" ColumnName="moreColumn19" />
+                <ScalarProperty Name="moreColumn18" ColumnName="moreColumn18" />
+                <ScalarProperty Name="moreColumn17" ColumnName="moreColumn17" />
+                <ScalarProperty Name="moreColumn16" ColumnName="moreColumn16" />
+                <ScalarProperty Name="moreColumn15" ColumnName="moreColumn15" />
+                <ScalarProperty Name="moreColumn14" ColumnName="moreColumn14" />
+                <ScalarProperty Name="moreColumn13" ColumnName="moreColumn13" />
+                <ScalarProperty Name="moreColumn12" ColumnName="moreColumn12" />
+                <ScalarProperty Name="moreColumn11" ColumnName="moreColumn11" />
+                <ScalarProperty Name="moreColumn10" ColumnName="moreColumn10" />
+                <ScalarProperty Name="moreColumn9" ColumnName="moreColumn9" />
+                <ScalarProperty Name="moreColumn8" ColumnName="moreColumn8" />
+                <ScalarProperty Name="moreColumn7" ColumnName="moreColumn7" />
+                <ScalarProperty Name="moreColumn6" ColumnName="moreColumn6" />
+                <ScalarProperty Name="moreColumn5" ColumnName="moreColumn5" />
+                <ScalarProperty Name="moreColumn4" ColumnName="moreColumn4" />
+                <ScalarProperty Name="moreColumn3" ColumnName="moreColumn3" />
+                <ScalarProperty Name="moreColumn2" ColumnName="moreColumn2" />
+                <ScalarProperty Name="moreColumn1" ColumnName="moreColumn1" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="OrderId" ColumnName="OrderId" />
                 <ScalarProperty Name="ProductId" ColumnName="ProductId" />
@@ -312,6 +572,26 @@
           <EntitySetMapping Name="Products">
             <EntityTypeMapping TypeName="sampleDbModel.Product">
               <MappingFragment StoreEntitySet="Product">
+                <ScalarProperty Name="moreColumn20" ColumnName="moreColumn20" />
+                <ScalarProperty Name="moreColumn19" ColumnName="moreColumn19" />
+                <ScalarProperty Name="moreColumn18" ColumnName="moreColumn18" />
+                <ScalarProperty Name="moreColumn17" ColumnName="moreColumn17" />
+                <ScalarProperty Name="moreColumn16" ColumnName="moreColumn16" />
+                <ScalarProperty Name="moreColumn15" ColumnName="moreColumn15" />
+                <ScalarProperty Name="moreColumn14" ColumnName="moreColumn14" />
+                <ScalarProperty Name="moreColumn13" ColumnName="moreColumn13" />
+                <ScalarProperty Name="moreColumn12" ColumnName="moreColumn12" />
+                <ScalarProperty Name="moreColumn11" ColumnName="moreColumn11" />
+                <ScalarProperty Name="moreColumn10" ColumnName="moreColumn10" />
+                <ScalarProperty Name="moreColumn9" ColumnName="moreColumn9" />
+                <ScalarProperty Name="moreColumn8" ColumnName="moreColumn8" />
+                <ScalarProperty Name="moreColumn7" ColumnName="moreColumn7" />
+                <ScalarProperty Name="moreColumn6" ColumnName="moreColumn6" />
+                <ScalarProperty Name="moreColumn5" ColumnName="moreColumn5" />
+                <ScalarProperty Name="moreColumn4" ColumnName="moreColumn4" />
+                <ScalarProperty Name="moreColumn3" ColumnName="moreColumn3" />
+                <ScalarProperty Name="moreColumn2" ColumnName="moreColumn2" />
+                <ScalarProperty Name="moreColumn1" ColumnName="moreColumn1" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="ProductName" ColumnName="ProductName" />
                 <ScalarProperty Name="SupplierId" ColumnName="SupplierId" />
@@ -324,6 +604,26 @@
           <EntitySetMapping Name="Suppliers">
             <EntityTypeMapping TypeName="sampleDbModel.Supplier">
               <MappingFragment StoreEntitySet="Supplier">
+                <ScalarProperty Name="moreColumn20" ColumnName="moreColumn20" />
+                <ScalarProperty Name="moreColumn19" ColumnName="moreColumn19" />
+                <ScalarProperty Name="moreColumn18" ColumnName="moreColumn18" />
+                <ScalarProperty Name="moreColumn17" ColumnName="moreColumn17" />
+                <ScalarProperty Name="moreColumn16" ColumnName="moreColumn16" />
+                <ScalarProperty Name="moreColumn15" ColumnName="moreColumn15" />
+                <ScalarProperty Name="moreColumn14" ColumnName="moreColumn14" />
+                <ScalarProperty Name="moreColumn13" ColumnName="moreColumn13" />
+                <ScalarProperty Name="moreColumn12" ColumnName="moreColumn12" />
+                <ScalarProperty Name="moreColumn11" ColumnName="moreColumn11" />
+                <ScalarProperty Name="moreColumn10" ColumnName="moreColumn10" />
+                <ScalarProperty Name="moreColumn9" ColumnName="moreColumn9" />
+                <ScalarProperty Name="moreColumn8" ColumnName="moreColumn8" />
+                <ScalarProperty Name="moreColumn7" ColumnName="moreColumn7" />
+                <ScalarProperty Name="moreColumn6" ColumnName="moreColumn6" />
+                <ScalarProperty Name="moreColumn5" ColumnName="moreColumn5" />
+                <ScalarProperty Name="moreColumn4" ColumnName="moreColumn4" />
+                <ScalarProperty Name="moreColumn3" ColumnName="moreColumn3" />
+                <ScalarProperty Name="moreColumn2" ColumnName="moreColumn2" />
+                <ScalarProperty Name="moreColumn1" ColumnName="moreColumn1" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
                 <ScalarProperty Name="ContactName" ColumnName="ContactName" />

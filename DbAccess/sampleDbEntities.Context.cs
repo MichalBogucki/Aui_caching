@@ -18,7 +18,7 @@ namespace DbAccess
         public sampleDbEntities()
             : base("sampleDbEntities")
         {
-            this.Configuration.LazyLoadingEnabled = false;        
+            this.Configuration.LazyLoadingEnabled = false;
         }
 
         public sampleDbEntities(string nameOrConnectionString) : base(nameOrConnectionString)

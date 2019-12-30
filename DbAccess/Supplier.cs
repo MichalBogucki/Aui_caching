@@ -28,6 +28,26 @@ namespace DbAccess
         public string Country { get; set; }
         public string Phone { get; set; }
         public string Fax { get; set; }
+        public string moreColumn1 { get; set; }
+        public string moreColumn2 { get; set; }
+        public string moreColumn3 { get; set; }
+        public string moreColumn4 { get; set; }
+        public string moreColumn5 { get; set; }
+        public string moreColumn6 { get; set; }
+        public string moreColumn7 { get; set; }
+        public string moreColumn8 { get; set; }
+        public string moreColumn9 { get; set; }
+        public string moreColumn10 { get; set; }
+        public string moreColumn11 { get; set; }
+        public string moreColumn12 { get; set; }
+        public string moreColumn13 { get; set; }
+        public string moreColumn14 { get; set; }
+        public string moreColumn15 { get; set; }
+        public string moreColumn16 { get; set; }
+        public string moreColumn17 { get; set; }
+        public string moreColumn18 { get; set; }
+        public string moreColumn19 { get; set; }
+        public string moreColumn20 { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Product> Products { get; set; }

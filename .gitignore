@@ -138,7 +138,7 @@ DocProject/Help/html
 
 # Click-Once directory
 publish/
-! Aui2019/
+!Aui2019/*
 # Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml
